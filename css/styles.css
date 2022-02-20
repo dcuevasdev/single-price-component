@@ -1,1 +1,27 @@
+/*==========Fonts==========*/
+@font-face {
+  font-family: "Karla";
+  src: url(../assets/fonts/static/Karla-Regular.ttf);
+}
 
+/*==========Variables==========*/
+:root {
+  --font-family: "Karla";
+  --cyan: #2ab2af;
+  --bright-yellow: #c0df34;
+  --light-gray: #e5eff5;
+  --grayish-blue: #98a6bd;
+}
+
+/*==========Globals==========*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--light-gray);
+}
+html {
+  font-family: var(--font-family);
+  font-size: 62.5%;
+  line-height: 1.5;
+}
