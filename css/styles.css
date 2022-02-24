@@ -8,9 +8,11 @@
 :root {
   --font-family: "Karla";
   --cyan: #2ab2af;
+  --light-cyan: #4abebd;
   --bright-yellow: #c0df34;
   --light-gray: #e5eff5;
   --grayish-blue: #98a6bd;
+  --white: #fff;
 }
 
 /*==========Globals==========*/
@@ -18,10 +20,99 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--light-gray);
 }
 html {
   font-family: var(--font-family);
   font-size: 62.5%;
   line-height: 1.5;
+  background-color: var(--light-gray);
+}
+.container {
+  display: grid;
+  place-content: center;
+  width: 100%;
+  padding: 0.8rem;
+}
+.main {
+  display: grid;
+  min-width: 35rem;
+  max-width: 62rem;
+}
+
+/*==========Community==========*/
+.main__community {
+  padding: 1.6rem;
+  border-radius: 0.8rem 0.8rem 0 0;
+  background-color: var(--white);
+}
+.main__community-title {
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+  color: var(--cyan);
+}
+.main__community-subtitle {
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  color: var(--bright-yellow);
+}
+.main__community-text {
+  font-size: 1.6rem;
+  color: var(--grayish-blue);
+}
+
+/*==========Subscription==========*/
+.main__subscription {
+  padding: 1.6rem;
+  color: white;
+  background-color: var(--cyan);
+}
+.main__subscription-title {
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+}
+.main__subscription-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.main__subscription-item p {
+  font-size: 3.2rem;
+}
+.main__subscription-item small {
+  font-size: 1.2rem;
+  color: #ffffff94;
+}
+.main__subscription-text {
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+}
+.main__subscription-button {
+  width: 32.7rem;
+  height: 4.8rem;
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1.6rem;
+  color: var(--white);
+  background-color: var(--bright-yellow);
+  outline: none;
+}
+.main__subscription-button:hover {
+  cursor: pointer;
+}
+
+/*==========Why==========*/
+.main__why {
+  padding: 1.6rem;
+  border-radius: 0 0 0.8rem 0.8rem;
+  color: white;
+  background-color: var(--light-cyan);
+}
+.main__why-title {
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+}
+.main__why-text {
+  width: 18.8rem;
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.925);
 }
