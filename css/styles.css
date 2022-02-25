@@ -149,3 +149,21 @@ html {
     border-radius: 0 0 0.8rem 0;
   }
 }
+
+/*==========Footer==========*/
+.footer {
+  justify-self: center;
+  margin-top: 0.8rem;
+  font-size: 1.2rem;
+  color: var(--cyan);
+}
+.footer a {
+  color: var(--cyan);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 300ms;
+}
+.footer a:hover {
+  color: var(--bright-yellow);
+  text-decoration: underline;
+}
