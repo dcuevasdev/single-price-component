@@ -116,3 +116,36 @@ html {
   font-size: 1.6rem;
   color: rgba(255, 255, 255, 0.925);
 }
+
+/*==========Desktop==========*/
+@media (min-width: 650px) {
+  .container {
+    height: 100vh;
+  }
+  .main {
+    grid-template-columns: 1fr 1fr;
+  }
+  .main__community {
+    grid-column: 1/4;
+    padding: 2.4rem;
+  }
+  .main__subscription {
+    grid-column: 1/2;
+    padding: 2.4rem;
+    border-radius: 0 0 0 0.8rem;
+  }
+  .main__subscription-item {
+    margin-bottom: 1.6rem;
+  }
+  .main__subscription-text {
+    margin-bottom: 3.2rem;
+  }
+  .main__subscription-button {
+    width: 28.8rem;
+  }
+  .main__why {
+    grid-column: 2/4;
+    padding: 2.4rem;
+    border-radius: 0 0 0.8rem 0;
+  }
+}
