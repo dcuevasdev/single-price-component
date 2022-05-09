@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://dcuevas24.github.io/single-price-component/">
+    <a href="https://dcuevasdev.github.io/single-price-component/">
       Demo
     </a>
     <span> | </span>
@@ -22,7 +22,7 @@
 
 ## 🚀 Deploy
 
-En el siguiente link puedes ver la [web del challenge](https://dcuevas24.github.io/single-price-component/ "web del challenge")
+En el siguiente link puedes ver la [web del challenge](https://dcuevasdev.github.io/single-price-component/ "web del challenge")
 
 ### Desktop 💻
 
@@ -42,10 +42,10 @@ En el siguiente link puedes ver la [web del challenge](https://dcuevas24.github.
 
 ## ✒️ Autores
 
-- **Daniel Cuevas** - _Desarrollo_ - [@dcuevasr24](https://twitter.com/dcuevasr24 "@dcuevasr24")
+- **Daniel Cuevas** - _Desarrollo_ - [@dcuevasdev](https://twitter.com/dcuevasdev "@dcuevasdev")
 - **Frontend Mentor** - Diseño - [frontendmentor.io](https://www.frontendmentor.io/ "frontendmentor.io")
 
 ## 📥 Contacto
 
-- GitHub [@dcuevas24](https://github.com/dcuevas24)
-- Twitter [@dcuevasr24](https://twitter.com/dcuevasr24)
+- GitHub [@dcuevasdev](https://github.com/dcuevasdev)
+- Twitter [@dcuevasdev](https://twitter.com/dcuevasdev)
